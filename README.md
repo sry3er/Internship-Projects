@@ -1,2 +1,2 @@
-# Vandelay-Industries
-For Alex and Justin
+# Internship-Projects
+

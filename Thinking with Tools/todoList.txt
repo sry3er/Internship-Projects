@@ -1,0 +1,36 @@
+- create code to look through both API's
+- APIs should only reutrn countries that deal with china and russia
+
+- should orgnize the data by country to see where its selling best
+- secondly should be organized by make
+- its safe to assume that it shouldnt be organized by sold by people because it can be assumed that each sale is unique to person
+
+
+im going to create 11 different int counters for the world's top 10 economies and Russia. if the read line has any of the countries, it will incremenet to that and show which countries have high sales. 
+
+
+im having the most problem right now with counting the occurances mainly because I've never dealt with this much text. 
+
+I think i figured out the counts, but the file isnt going into the 2D array like I want because its separated by commas. 
+	- used getline and then made the delimit char ',' so that it would stop at every comma. 
+
+
+
+* now works for test1.txt and test2.txt
+
+
+- at the end, the code should take in one url paramter. I've modified this so that it takes in one of the test txt files, which are just what the html links output. 
+
+
+
+~~~~~~~~~~~~~//GENERAL NOTES//~~~~~~~~~~~~~~
+
+In test1.txt, the 11 countries aformentioned only make up 41% of the sales. In test2.txt, the 11 countries make up 42% of the sales. This means that smaller sales in a lot of smaller countries are being made as well. Those should be analyzed as well, but due to time constraints, was not able to. This can be worked on in the future with more time. 
+
+Another thing that could be looked at is the different car makes that are popular in certain countries. That would definitely take a longer time than just looking at top 10 economies + Russia, but is definitely do able as long as database of information is created. 
+
+Some issues that occured is created the dataset locally so that I could work with it. It took considerable time to figure out how to represent the data given. I chose to use a 2D array because it would be relatively simple to implement and manage. 
+
+The dataset is highly important to the customer and must be handled with and displayed in the most visually pleasing, while simple way. We cannot assume that the customer understand CS to the same degree as us, and thus, we must visually explain the data in the simplest terms. 
+
+To represent this data visually, I could use some GUI libraries, but I have not yet been exposed to this, and would thus take a longer time to show this. I could've used java for GUI.  

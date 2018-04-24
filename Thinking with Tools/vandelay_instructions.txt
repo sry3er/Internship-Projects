@@ -1,0 +1,24 @@
+Goals:
+- Show understanding of a dataset and it’s value to a customer
+- Create a skeleton application that shows how you think about code
+- Implement a map-based visualization to assist with a narrow task
+- Identify future features/requirements of value to the customer
+
+Background:
+Vandelay Industries, a prominent importer/exporter in the community, needs help making sense of their data for driving business decisions. They’ve got the greatest trade lawyers of all time, and have thus cornered the market on selling all makes and models of cars to all sorts of countries. However, the manager at Vandelay Industries have run out of ways to improve sales, and have asked you to put together a prototype to pitch to their management. They specifically are looking for something small for right now that may grow into a larger application later.
+
+The Mission:
+Leverage Vandelay Industries existing data (available over a rudimentary API) to implement a tool that will help stakeholders decide what cars to sell and what countries represent the best markets to go after. The end deliverable is a link to a github repo with the code. It should contain instructions for replicating what you created, even if it’s as simple as “run a simple webserver and look at index.html”. At the end of this, you’ll sit down with management to flesh out some features, talk through your design, and identify what effects changing the data would have on your design.
+
+API Endpoint For Data:
+https://my.api.mockaroo.com/test_api.json?key=e6ac1da0
+The endpoint optionally takes one url parameter, countries.
+Countries is a comma separated list of countries to restrict the returned data, for example:
+https://my.api.mockaroo.com/test_api.json?key=e6ac1da0&amp;countries=China,Russia
+Will return results where the only countries in the dataset are China and Russia.
+
+Note:
+- The API is pretty rudimentary -- you’re going to get back 50 results no matter what the query is, with
+no guarantee of repeats in the data from query to query.
+- The API will only take ~200 requests per day. This prevents you from doing too much in a day on
+this, and don’t panic if it stops giving you back data.

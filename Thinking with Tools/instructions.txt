@@ -1,0 +1,7 @@
+
+
+STEP 1: To check the occurance of sales in top 10 economies and Russia, compile countryCounter.cpp with compiler. (MacOSX can use terminal, EMACS works too.) 
+
+STEP 2: execute file by using the command ./a.out <txtfile>  //will create makefile
+
+Note: the <txtfile> refers to either calling test1.txt or test2.txt
